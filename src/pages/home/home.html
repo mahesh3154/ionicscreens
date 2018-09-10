@@ -1,18 +1,71 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
+<div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        Logo
+      </ion-col>
+      <ion-col>
+        <ion-icon class="larger" name="contact"></ion-icon>
+        <span> Paula Marshall</span>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-grid>
+  <ion-row justify-content-start>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  </ion-row>
+  <ion-row>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
-</ion-content>
+
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-12 col-md-2="someCondition">
+      <ion-col col-xs-12 col-sm-16>
+        In Informatics, dummy data is benign information that does not contain any useful data, but serves to reserve space where
+        real data is nominally present.
+      </ion-col>
+    </ion-col>
+    <ion-col col-12 col-md-10 class="backgroundGrey">
+      <ion-col col-12>
+          <div>
+            <h2>Welcome to acesses,</h2>
+          </div>
+          <br/> Thanks for intrest
+        <ion-row>
+          <ion-col col-12  col-md-6>
+            <ion-row>
+              <ion-col col-12 col-md-6>
+                <ion-item>
+                    <ion-label>Total Sales</ion-label>
+                  <ion-select [(ngModel)]="gender">
+                    <ion-option value="f">Female</ion-option>
+                    <ion-option value="m">Male</ion-option>
+                  </ion-select>
+                </ion-item>
+              </ion-col>
+              <ion-col col-12 col-md-6 class="revenew">123455555 $</ion-col>
+            </ion-row>
+          </ion-col>
+          <ion-col col-12 col-md-6 >
+            <ion-row>
+              <ion-col col-12 col-md-6>
+                <ion-item>
+                    <ion-label>Forecast Accuracy</ion-label>
+
+                  <ion-select [(ngModel)]="gender">
+                    <ion-option value="f">Female</ion-option>
+                    <ion-option value="m">Male</ion-option>
+                  </ion-select>
+                </ion-item>
+              </ion-col>
+              <ion-col col-12 col-md-6 class="revenew">89%</ion-col>
+            </ion-row>
+          </ion-col>
+
+        </ion-row>
+      </ion-col>
+    </ion-col>
+  </ion-row>
